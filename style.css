@@ -1,13 +1,13 @@
 body {
-  background: #0a0a0a;
+  background: #0b0b0b;
   color: #eaeaea;
   font-family: Georgia, serif;
   margin: 0;
 }
 
 header {
-  background: black;
-  padding: 20px;
+  background: #000;
+  padding: 25px;
   text-align: center;
   border-bottom: 1px solid darkred;
 }
@@ -17,7 +17,7 @@ h1, h2, h3 {
 }
 
 .container {
-  max-width: 700px;
+  max-width: 750px;
   margin: auto;
   padding: 30px;
 }
@@ -34,4 +34,11 @@ a:hover {
 .chapter {
   line-height: 1.9;
   font-size: 18px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
 }
