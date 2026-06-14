@@ -1,5 +1,5 @@
 body {
-  background: #0b0b0b;
+  background: radial-gradient(circle, #111, #000);
   color: #eaeaea;
   font-family: Georgia, serif;
   margin: 0;
@@ -7,7 +7,7 @@ body {
 
 header {
   background: #000;
-  padding: 25px;
+  padding: 30px;
   text-align: center;
   border-bottom: 1px solid darkred;
 }
@@ -17,7 +17,7 @@ h1, h2, h3 {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 800px;
   margin: auto;
   padding: 30px;
 }
@@ -31,14 +31,20 @@ a:hover {
   text-decoration: underline;
 }
 
-.chapter {
-  line-height: 1.9;
-  font-size: 18px;
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  transition: 0.3s;
 }
 
-.card {
-  background: #111;
-  padding: 20px;
-  margin-top: 15px;
-  border-radius: 10px;
+.card:hover {
+  transform: scale(1.02);
+  background: rgba(255,255,255,0.08);
+}
+
+.chapter {
+  line-height: 2;
+  font-size: 18px;
 }
