@@ -1,1 +1,37 @@
+body {
+  background: #0a0a0a;
+  color: #eaeaea;
+  font-family: Georgia, serif;
+  margin: 0;
+}
 
+header {
+  background: black;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid darkred;
+}
+
+h1, h2, h3 {
+  color: darkred;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.chapter {
+  line-height: 1.9;
+  font-size: 18px;
+}
